@@ -1,0 +1,11 @@
+# Upstream three.js engine — large (~565 MB) sibling dependency, referenced by
+# threeui (file:../three.js-dev) and served at /tjs; not versioned in this repo.
+/three.js-dev/
+
+# Node install + build outputs
+threeui/node_modules/
+threeui/dist/
+threeui/lib-dist/
+
+# Local backups created during the integration (git now tracks history)
+*.bak
